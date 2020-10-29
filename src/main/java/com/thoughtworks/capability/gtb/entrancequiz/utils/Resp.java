@@ -34,7 +34,7 @@ public class Resp<T> {
         this.messages.add(message);
         this.data = data;
     }
-
+    //TODO GTB-知识点: - Resp.java:37 返回code按照正常的HTTP code即可，无需自定义
     public Resp(T data) {
         this(2000, "操作成功", data);
     }

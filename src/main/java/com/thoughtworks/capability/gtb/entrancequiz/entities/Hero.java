@@ -1,5 +1,5 @@
 package com.thoughtworks.capability.gtb.entrancequiz.entities;
-
+//TODO GTB-知识点: * Hero.java:2 了解下Lombok
 public class Hero {
     private Integer id;
     private String name;
